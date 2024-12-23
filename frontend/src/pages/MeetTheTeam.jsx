@@ -7,6 +7,11 @@ import khushi_profile from '../assets/khushi_profile.jpeg';
 import shrey from '../assets/shrey.jpeg';
 import dev from '../assets/dev.jpeg';
 import devvrat from '../assets/devvrat.jpg';
+import nidhi from '../assets/nidhi.png';
+import ananya from '../assets/ananya.png';
+import janmejay from '../assets/janmejay.png';
+import vidhi from '../assets/vidhi.png';
+import paras from '../assets/paras.png';
 
 const teamMembers = [
     {
@@ -50,7 +55,7 @@ const teamMembers = [
     {
         name: "Ananya Sanghavi",
         post: "Treasurer",
-        image: "https://via.placeholder.com/150",
+        image: ananya,
         socialLinks: {
             facebook: "https://facebook.com/sarahwhite",
             twitter: "https://twitter.com/sarahwhite",
@@ -61,7 +66,7 @@ const teamMembers = [
     {
         name: "Nidhi Bolia",
         post: "Vice Chair",
-        image: "https://via.placeholder.com/150",
+        image: nidhi,
         socialLinks: {
             facebook: "https://facebook.com/davidblack",
             twitter: "https://twitter.com/davidblack",
@@ -72,7 +77,7 @@ const teamMembers = [
     {
         name: "Vidhi Patel",
         post: "Webmaster",
-        image: "https://via.placeholder.com/150",
+        image: vidhi,
         socialLinks: {
             linkedin: "https://www.linkedin.com/in/vidhi-patel-627962254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             gmail: "mailto:Pvidhi949@gmail.com",
@@ -81,7 +86,7 @@ const teamMembers = [
     {
         name: "Janmejay Chatterjee",
         post: "Student Chair",
-        image: "https://via.placeholder.com/150",
+        image: janmejay,
         socialLinks: {
             facebook: "https://facebook.com/davidblack",
             twitter: "https://twitter.com/davidblack",
@@ -112,7 +117,7 @@ const teamMembers = [
     {
         name: "Paras Shah",
         post: "Secretary",
-        image: "https://via.placeholder.com/150",
+        image: paras,
         socialLinks: {
             facebook: "https://facebook.com/davidblack",
             twitter: "https://twitter.com/davidblack",
