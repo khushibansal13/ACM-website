@@ -1,0 +1,136 @@
+/* slick-carousel styles */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Ensure that the slider container uses full width */
+.slick-slide {
+    display: flex;
+    justify-content: center;  /* Center the slides */
+}
+
+/* Adjust the width of each slide to ensure images are properly spaced */
+.slick-slide div {
+    max-width: 100%; /* Ensure the content fits within the container */
+}
+
+/* Style for the image to make it responsive and not congested */
+.slick-slide img {
+    width: 100%; /* Make images take full width of their container */
+    height: auto; /* Keep the aspect ratio intact */
+    object-fit: cover; /* Ensure the images cover the available space */
+}
+
+/* Optional: Add some space between the slides */
+.slick-track {
+    display: flex;
+    gap: 20px; /* Space between slides */
+}
+
+/* Style for the carousel container to manage layout */
+.slick-list {
+    overflow: hidden; /* Hide overflow to ensure smooth sliding */
+    padding-bottom: 20px; /* Add space at the bottom for arrows */
+}
+
+/* Style for the individual event cards */
+.slick-slide .border {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for better separation */
+    background-color: white; /* Make the card background white for better contrast */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Add hover effect for the event cards */
+.slick-slide .border:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .slick-slide img {
+        object-fit: contain; /* Allow images to scale properly on smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .slick-slide {
+        padding: 0 8px; /* Add more space around slides on smaller screens */
+    }
+}
+
+/* slick-carousel styles */
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
